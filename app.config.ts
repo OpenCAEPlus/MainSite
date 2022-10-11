@@ -10,7 +10,7 @@ export default defineAppConfig({
       github: 'opencaeplus/mainsite'
     },
     github: {
-      root: 'docs/content',
+      root: 'content',
       edit: true,
       releases: true
     },
@@ -23,27 +23,14 @@ export default defineAppConfig({
     },
     header: {
       title: false,
-      logo: false,
-      exclude: ['/v1', '/content-v1', '/fr', '/ja', '/ru']
+      logo: false
     },
     footer: {
       credits: {
         icon: 'IconDocus',
         text: 'Powered by Docus',
         href: 'https://docus.com'
-      },
-      icons: [
-        {
-          label: 'NuxtJS',
-          href: 'https://nuxtjs.org',
-          component: 'IconNuxt'
-        },
-        {
-          label: 'Vue Telescope',
-          href: 'https://vuetelescope.com',
-          component: 'IconVueTelescope'
-        }
-      ]
+      }
     }
   }
 })
