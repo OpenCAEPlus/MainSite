@@ -5,3 +5,4 @@ services:
   branch: static
   buildCommand: yarn; yarn generate
   staticPublishPath: dist
+  domains: opencaeplus.org
